@@ -5,12 +5,23 @@
 }
 html{
     height: 100vh;
+    //Yo quitaria esto a ver si esta mejor
 }
 body {
+    //aca quitaria el width 100% a ver que onda
     height: 100%;
     max-width: auto;
     background-color: #E5E5E5; 
     margin: 0 auto;
+    
+    /*
+    podrias centrar el contenido
+    Onda
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    y si queres margin:auto; pero creo que no es necesario. asi todo se va a centrar en el mediode la pagina
+    */
 }
 
 header{
