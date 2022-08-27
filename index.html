@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">   
+  <title>Encriptador de Texto con JavaScript</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<header>
+    <H1><img src="./assets/img/Logo.png" alt="" class="logo"></H1>
+</header>
+
+
+<body>
+    <main class="main">
+
+        <section>
+            <div class="exclama"><img class="exclamation" src="./assets/img/exclamation.svg">
+                <p class="exclam"> Solo letras Minusculas y sin signos</p>
+            </div>
+            <textarea id="input-texto" name="textarea" class="inputTexto" cols="40" rows="6" placeholder="Ingrese el Texto aqui" autofocus="true">
+            </textarea>
+            <div class="botones">
+                <button id="btn-encriptar" class="Encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                <button id="btn-desencriptar" class="Desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        
+        <section>
+           
+            <textarea id="mensaje-texto" class="Mensaje" cols="18" rows="8">
+                
+            </textarea>
+            <img class="img"src="./assets/img/noTxtWhite.png">
+            <div class="copyb">
+                <button id="btn-copy" class="Copy" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
